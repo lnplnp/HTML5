@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 Drag and drop demonstration</title>
+
+<link href="/css/draganddrop.css" rel="stylesheet" type="text/css">
+<script src="/js/draganddrop.js"></script>
+
+</head>
+<body>
+  <h1>Drag and drop HTML5 demo</h1>
+  <div>there are many other variables that can be used also, we will coer this another day.</div>
+  <div ondragover="return dragOver(event)" ondrop="return dragDrop(event)" ondragenter="return dragEnter(event)" id="boxA">
+    <div ondragend="return dragEnd(event)" ondragstart="return dragStart(event)" draggable="true" id="drag">drag me</div>
+    <div ondragend="return dragEnd(event)" ondragstart="return dragStart(event)" draggable="true" id="drag2">drag me</div>
+    <div ondragend="return dragEnd(event)" ondragstart="return dragStart(event)" draggable="true" id="drag3">drag me</div>
+  </div>
+  <div ondragover="return dragOver(event)" ondrop="return dragDrop(event)" ondragenter="return dragEnter(event)" id="boxB"></div>
+  <div ondragover="return dragOver(event)" ondrop="return dragDrop(event)" ondragenter="return dragEnter(event)" id="boxC"></div>
+  <div style="clear: both">
+    Example created by <a href="http://html5tutorial.net/">HTML Tutorials</a>.
+  </div>
+</body>
+</html>

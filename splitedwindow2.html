@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Splited Window</title>
+
+<link href="/css/overcast/jquery-ui-1.8.23.custom.css" rel="stylesheet" type="text/css">
+<link href="/css/splitedwindow.css" rel="stylesheet" type="text/css">
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+<script src="/js/custom.colorize.js"></script>
+<script src="/js/splitedwindow.js"></script>
+
+</head>
+<body>
+
+  <div id="header"></div>
+
+  <div id="main-content">
+    <div id="main-left" class="main-inner">a</div>
+    <div id="main-center" class="main-inner">
+      <div id="main-center-inner" class="ui-widget">
+        <table class="window window-splited">
+          <thead>
+            <tr>
+              <th><h3 class="ui-widget-header">Title 1</h3></th>
+            </tr>
+          </thead>
+          <tbody class="ui-widget-content">
+            <tr>
+              <td class="part"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></td>
+              <td class="part"><p>Nullam in imperdiet augue.</p></td>
+            </tr>
+            <tr>
+              <td class="part"><p>Nulla non libero quis dolor commodo dictum.</p></td>
+              <td class="part"><p>Mauris sit amet porta turpis. Aliquam erat volutpat.</p></td>
+              <td class="part"><p>Vivamus eget dolor pellentesque mi pharetra auctor ac a nisl.</p></td>
+            <tr>
+              <td class="part"><p>Nullam nec lacus non ligula dictum laoreet quis sit amet sem.</p></td>
+              <td class="part"><p>Nullam ligula lorem, aliquam ac venenatis sed, venenatis vitae sem.</p></td>
+            </tr>
+            </tr>
+          </tbody>
+        </table>
+        <!-- // window -->
+      </div>
+    </div>
+    <!-- // main-center -->
+    <div id="main-right" class="main-inner">c</div>
+    <!-- // main-right -->
+  </div>
+
+  <div id="footer"></div>
+  <!-- // footer -->
+
+  <div class="demo">
+    <div>
+      <div id="my-widget1">color me</div>
+      <div id="my-widget2">color me</div>
+      <div id="my-widget3">color me</div>
+      <button id="disable">Toggle disabled option</button>
+      <button id="black">Go black</button>
+    </div>
+  </div>
+  <!-- End demo -->
+
+</body>
+</html>

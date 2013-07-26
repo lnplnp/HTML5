@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.clear{
+  clear:both;
+}
+
+#container{
+  border: 1px red solid;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.panel{
+  background-color: #9999FF;
+  float: left;
+  height: 200px;
+  padding: 2.5px;
+}
+
+#panel1{
+  background-color: #FF0000;
+}

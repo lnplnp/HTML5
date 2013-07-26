@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+#container {
+  border: 1px red solid;
+  margin: 0 auto;
+  width: 900px;
+}
+
+table {
+  height: 100%;
+  width: 100%;
+}
+
+col:nth-child(n) {
+  background: #F0F
+}
+
+col:first-child {
+  background: #FF0
+}
+
+col:nth-child(2n+3) {
+  background: #0FF
+}
+
+th {
+  height: 20px;
+  background: #ACC
+}
+
+td {
+  border: 1px blue solid;
+}

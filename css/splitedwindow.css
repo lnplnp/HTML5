@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+#main-left {
+  background-color: blue;
+}
+
+#main-center {
+  background-color: white;
+  border: 1px black solid;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#main-center-inner {
+  height: 800px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+#main-right {
+  background-color: red;
+}
+
+.window {
+  background-color: white;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+div.window-splited * {
+  margin: 0;
+  padding: 0;
+}
+
+div.window-splited div.part {
+  padding: 5px;
+}
+
+h3.ui-widget-header {
+  margin: 0;
+  text-align: center;
+}
+
+.custom-colorize {
+  font-size: 20px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+}
+
+.custom-colorize-changer {
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+#boxA,#boxB,#boxC {
+  float: left;
+  width: 165px;
+  height: 165px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#boxA {
+  background-color: #474747;
+}
+
+#boxB {
+  background-color: #474747;
+}
+
+#boxC {
+  background-color: #474747;
+}
+
+#drag,#drag2,#drag3 {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px;
+  -moz-user-select: none;
+}
+
+#drag {
+  background-color: #e8e8e8;
+}
+
+#drag2 {
+  background-color: orange;
+}
+
+#drag3 {
+  background-color: purple;
+  border: 3px brown solid;
+}
