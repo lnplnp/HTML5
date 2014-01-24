@@ -42,3 +42,16 @@ body {
   background-color: purple;
   border: 3px brown solid;
 }
+
+#test-strtotime  col:first-child {
+  background: #FF0
+}
+
+#test-strtotime  col:nth-child(2n+3) {
+  background: #CCC
+}
+
+#test-strtotime  td {
+  border-collapse: collapse;
+  padding: .5em;
+}
